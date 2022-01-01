@@ -1,0 +1,14 @@
+Introduction to the problem and Data
+
+We are using data of dialogues and utterances from F.R.I.E.N.D.S TV series. We have .mp4 files of the dialogues. We also
+have .csv files for the text forms of the dialogues/utternaces and some more info about the scenes.
+We will be doing 4 major tasks in this problems namely,
+a. Convert speech to text using Python
+b. Conduct sentiment analysis on the text data
+c. Find the topics in the text using LDA
+d. Find salient entities in the speech
+
+Also except for 1st task i.e to convert speech to text, we will be using .csv files only for the next three tasks
+
+Input Data:
+Can be found on the link: https://www.kaggle.com/zaber666/meld-dataset

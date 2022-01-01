@@ -1,0 +1,31 @@
+Method1: For AWS
+
+Setting up on a EC2 instance
+Prerequisite: Create a large enought EC2 instance(preferrably c5.4xlarge), 
+	      3 S3 buckets each for dev, train, and test .mp4 files
+1. Install python 3.7 and pip
+2. Install requirements.txt file:
+> pip3 install -r requirements.txt
+
+3. Install ffmeg (for .mp4 to .wav conversion):
+> sudo apt update
+> sudo apt install ffmpeg
+
+4. Upload the data(.mp4 files to S3 bucket)
+5. For task1 of converting speech to text run app2.py file. Update aws_access_key_id,aws_secret_access_key, 
+my_bucket = s3.Bucket('')--> update here for dev, train and test 
+
+6. for next tasks of sentiment analysis, topic modeling, and named entity research, execute the respective .py files.
+
+
+Method 2: Kaggle(Recommended)
+
+1. Create a new notebook on kaggle.
+2. Go to add dataset option in kernel
+3. Search 'MELD', select it, and add the dataset to notebook
+4. Upload .ipynb extension notebook from submitted files to run the respective notebook
+4. Except for speech to text remaining three files will run on it.
+
+
+
+
