@@ -24,6 +24,8 @@ results.
 	3. `Topic_Modeling_LDA_Methodology_Results` --> For Topic Modeling using LDA
 
 5. `requirements.txt` : File to install the dependencies required
+		`> pip3 install -r requirements.txt'
 
 6. `setup.txt` : Guide to set up the assignment
+7. Input data: Can be found on the link: https://www.kaggle.com/zaber666/meld-dataset
  
